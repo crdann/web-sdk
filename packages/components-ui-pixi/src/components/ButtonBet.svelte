@@ -27,7 +27,7 @@
 						anchor={0.5}
 						{...disabled || ['spin_disabled', 'stop_disabled'].includes(key)
 							? {
-									backgroundColor: 0xaaaaaa,
+									backgroundColor: 0x6f9202,
 								}
 							: {}}
 					/>

@@ -32,43 +32,43 @@
 			},
 		})}
 	>
-		<Container y={DESKTOP_BASE_SIZE * 0.5 - 160} x={900 - 500} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.3} x={780 - 500} scale={0.8}>
 			{@render props.amountBalance({ stacked: true })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5 - 160} x={900} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.5 - 30} x={1000} scale={0.8}>
 			{@render props.amountWin({ stacked: true })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5 - 160} x={900 + 500} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.5 - 30} x={300 + 270} scale={0.8}>
 			{@render props.amountBet({ stacked: true })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5} x={220} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.5} x={70} scale={0.8}>
 			{@render props.buttonMenu({ anchor: 0.5 })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5} x={220 + 150} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.0} x={50} scale={0.8}>
 			{@render props.buttonBuyBonus({ anchor: 0.5 })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5} x={160 + 150 * 4} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.5} x={900 + 150 * 4} scale={0.8}>
 			{@render props.buttonAutoSpin({ anchor: 0.5 })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5} x={160 + 150 * 5} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.4} x={1360} scale={0.8}>
 			{@render props.buttonBet({ anchor: 0.5 })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5} x={160 + 150 * 6} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.5} x={320 + 150 * 6} scale={0.8}>
 			{@render props.buttonTurbo({ anchor: 0.5 })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5} x={1440} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.5} x={480} scale={0.8}>
 			{@render props.buttonDecrease({ anchor: 0.5 })}
 		</Container>
 
-		<Container y={DESKTOP_BASE_SIZE * 0.5} x={1440 + 150} scale={0.8}>
+		<Container y={DESKTOP_BASE_SIZE * 0.5} x={660} scale={0.8}>
 			{@render props.buttonIncrease({ anchor: 0.5 })}
 		</Container>
 	</Container>

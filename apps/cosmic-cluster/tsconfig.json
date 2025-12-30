@@ -1,0 +1,5 @@
+{
+	"extends": "config-ts/base.json",
+	"include": ["."],
+	"exclude": ["dist", "build", "node_modules", "*.config.js", "svelte.config.js", "vite.config.js"]
+}
